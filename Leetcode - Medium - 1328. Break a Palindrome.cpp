@@ -4,7 +4,7 @@ public:
         int palLength = palindrome.length();
         int midPoint = palLength / 2;
         
-        if (palLength == 1 || palLength == 0){
+        if (palLength == 1){
             return ""; 
         }
         else{
